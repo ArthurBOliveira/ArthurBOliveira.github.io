@@ -69,9 +69,7 @@ html {
   
   html, body {
     height: 100%;
-    width: 100%;
-    background-color: #19130f;
-    color: #fff; }
+    width: 100%; }
   
   html {
     font-size: 62.5%; }
@@ -84,7 +82,9 @@ html {
     color: #373737;
     font-size: 2rem;
     line-height: 3.25rem;
-    margin: 0; }
+    margin: 0;
+    background-color: #19130f;
+    color: #fff; }
   
   .gray {
     color: #878787; }
