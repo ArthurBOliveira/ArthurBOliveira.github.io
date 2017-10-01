@@ -168,14 +168,14 @@ html {
   
   a:hover,
   .link:hover {
-    color: #e600b4;
+    color: #FFA500;
     text-decoration: underline; }
   
   .link--quiet {
     color: #373737; }
   
   .link--quiet:hover {
-    color: #ff00c8; }
+    color: #FFA500; }
   
   .link--silent {
     color: #373737; }
@@ -729,8 +729,8 @@ html {
     padding: 1.5rem 2rem;
     text-transform: uppercase; }
     .button:hover {
-      background-color: #ff00c8;
-      border-color: #ff00c8;
+      background-color: #FFA500;
+      border-color: #FFA500;
       color: #fff;
       text-decoration: none; }
   
@@ -883,7 +883,7 @@ html {
       color: #878787;
       }
       .icons-list__item a:hover {
-        color: #ff00c8;
+        color: #FFA500;
         text-decoration: none; }
     .icons-list__item i {
       margin-right: .5rem; }
@@ -1018,7 +1018,7 @@ html {
     .footer__link a {
       color: #373737; }
       .footer__link a:hover {
-        color: #ff00c8;
+        color: #FFA500;
         text-decoration: none; }
     .footer__link i {
       margin-right: .5rem; }
@@ -1403,19 +1403,19 @@ html {
     font-size: 2.2rem;
     line-height: 2.2rem;
     letter-spacing: 0;
-    color: #373737;
+    color: #fff;
     font-weight: 300; }
     .nav__list__link i {
       margin-right: .5rem; }
     .nav__list__link:hover {
-      color: #ff00c8;
+      color: #FFA500;
       text-decoration: none; }
   
   .nav__list__link--quiet {
     color: #878787; }
   
   .nav__list__link--highlight {
-    color: #ff00c8; }
+    color: #FFA500; }
   
   .nav__list--secondary {
     position: absolute;
@@ -1426,7 +1426,7 @@ html {
       font-size: 1.8rem;
       line-height: 1.8rem; }
       .nav__list--secondary .nav__list__link:hover {
-        color: #ff00c8; }
+        color: #FFA500; }
   
   @media (max-width: 800px) {
     .nav {
