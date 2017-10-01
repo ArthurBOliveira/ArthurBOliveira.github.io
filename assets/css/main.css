@@ -136,13 +136,13 @@ html {
   
   p,
   .paragraph {
-    font-size: 2.0rem;
+    font-size: 2.5rem;
     line-height: 3.0rem;
     margin-bottom: 2.0rem;
     margin-top: 0; }
   
   .paragraph--large {
-    font-size: 2.4rem;
+    font-size: 2.9rem;
     line-height: 3.6rem;
     margin-bottom: 2.4rem;
     font-weight: 500; }
@@ -1659,11 +1659,11 @@ html {
     border-radius: 100px;
     }
   
-  .profile-card:hover .profile-card__portrait img {
+  /* .profile-card:hover .profile-card__portrait img {
     -webkit-animation: trip-balls 3s infinite;
     -moz-animation: trip-balls 3s infinite;
-    animation: trip-balls 3s infinite; }
-  @-webkit-keyframes trip-balls {
+    animation: trip-balls 3s infinite; } */
+  /* @-webkit-keyframes trip-balls {
     0% {
       -webkit-filter: hue-rotate(0deg) saturate(100%); }
     25% {
@@ -1690,9 +1690,9 @@ html {
       filter: hue-rotate(270deg) saturate(400%); }
     100% {
       -webkit-filter: hue-rotate(360deg) saturate(100%);
-      filter: hue-rotate(360deg) saturate(100%); } }
+      filter: hue-rotate(360deg) saturate(100%); } } */
   .profile-card__title {
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 3rem;
     margin-bottom: 1.5rem; }
   
