@@ -1165,9 +1165,10 @@ html {
   .logo__portrait__image {
     display: block;
     margin: 0;
-    height: 7.5rem; }
+    height: 7.5rem;
+    border-radius: 100px; }
   
-  .logo:hover .logo__portrait__image {
+  /* .logo:hover .logo__portrait__image {
     -webkit-animation: trip-balls 3s infinite;
     -moz-animation: trip-balls 3s infinite;
     animation: trip-balls 3s infinite; }
@@ -1198,7 +1199,7 @@ html {
       filter: hue-rotate(270deg) saturate(400%); }
     100% {
       -webkit-filter: hue-rotate(360deg) saturate(100%);
-      filter: hue-rotate(360deg) saturate(100%); } }
+      filter: hue-rotate(360deg) saturate(100%); } } */
   .logo__text {
     display: -webkit-box;
     display: -moz-box;
