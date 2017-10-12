@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107318256-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments)
+        };
+        gtag('js', new Date());
+        gtag('config', 'UA-107318256-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Arthur B. Oliveira</title>
+    <meta name="description" content="Backend and Game developer, specialized in Backend, I develop Api's, Websites and Games. The tecnologies I'm most proficient are .net and Unity 3d.">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700">
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <link rel="canonical" href="https://arthurboliveira.github.io/">
+
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <meta property="og:title" content="Arthur B. Oliveira" />
+    <meta property="og:type" content="Portfolio" />
+    <meta property="og:url" content="https://arthurboliveira.github.io/" />
+    <meta property="og:image" content="https://arthurboliveira.github.io/assets/images/me.jpg" />
+
+    <meta name="theme-color" content="#19130f">
+
+</head>
+
+<body js-component="page">
+    <aside class="menu" js-component="menu">
+        <nav class="menu__nav nav">
+
+            <ul class="nav__list nav__list--primary">
+                <li class="nav__list__item" js-menu-item>
+                    <a class="nav__list__link nav__list__link--active" href="/" title="">
+                        Home
+                    </a>
+                </li>
+                <li class="nav__list__item" js-menu-item>
+                    <a class="nav__list__link " href="/about" title="">
+                        About
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav__list nav__list--secondary">
+                <li class="nav__list__item" js-menu-item>
+                    <a class="nav__list__link" href="https://github.com/ArthurBOliveira/" rel="noopener" target="_blank">
+                        github
+                    </a>
+                </li>
+                <li class="nav__list__item--secondary" js-menu-item>
+                    <a class="nav__list__link " href="https://medium.com/@ArthurBOliveira" title="">
+                        Medium
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <div class="page">
+        <div class="header-container">
+            <header class="header" js-component="header" js-args="{ offset: '200'}">
+                <div class="logo">
+                    <div class="logo__portrait" title="I'm a Backend & Game developer, from São Paulo, Brazil.">
+                        <a href="/" class="logo__portrait__link">
+                            <img class="logo__portrait__image" src="/assets/images/me.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="logo__text">
+                        <address class="logo__title author">
+                            <a class="logo__title__link" href="/" rel="author">
+                                Arthur B. Oliveira
+                            </a>
+                        </address>
+                        <h2 class="logo__subtitle">Backend & Game Developer</h2>
+                    </div>
+                </div>
+                <div class="menu-trigger " title="Toggle the sidebar navigation menu" js-component="menuTrigger">
+                    <button class="menu-trigger__button" type="button" name="menu-trigger" js-menu-trigger>
+                        <img class="menu-trigger__icon menu-trigger__icon--open" src="/assets/images/menu-icon.svg" alt="Open Menu">
+                        <img class="menu-trigger__icon menu-trigger__icon--close" src="/assets/images/close.svg" alt="Close Menu">
+                    </button>
+                </div>
+
+            </header>
+        </div>
+
+        <div class="content-container container">
+            <div class="column">
+                <div class="content__list">
+                    <div class="content__list__item">
+                        <article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+                            <figure class="content__image ">
+                                <a href="https://codegeneratorweb.herokuapp.com/">
+                                    <img class="content__image__img" src="/assets/images/CodeGen.PNG" alt="">
+                                </a>
+                            </figure>
+                            <header class="content__header ">
+                                <h1 class="content__title" itemprop="name headline">
+                                    <a href="https://codegeneratorweb.herokuapp.com/">
+                                        Code Generator
+                                    </a>
+                                </h1>
+                            </header>
+                            <section class="content__section" itemprop="articleBody">
+                                <p>As a developer I find myself coding many tedious codes, like when I need a new Model and
+                                    I need to implement the Controller, Service, Repository and the SQL Table, so I came
+                                    up with an idea that have being helpful ever since.
+                                </p>
+                                <p>
+                                    First I developed a Window Application that pick my Models files and creates all the other classes I needed for my job. But
+                                    recently I realised that this idea could be helpful for many others developers like me.
+                                    So I decided to turn it into a site and make it open source.</p>
+                            </section>
+                        </article>
+                    </div>
+
+                    <!-- <div class="content__list__item">
+                        <article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+
+
+                            <figure class="content__image ">
+                                <a href="/projects/pubs-with/">
+                                    <img class="content__image__img" src="/assets/uploads/pubs-with-1.jpg" alt="">
+                                </a>
+
+                            </figure>
+
+
+
+                            <header class="content__header ">
+
+                                <h1 class="content__title" itemprop="name headline">
+                                    <a href="/projects/pubs-with/">
+                                        Pubs With
+                                    </a>
+                                </h1>
+                            </header>
+
+                            <section class="content__section" itemprop="articleBody">
+                                <p>Pubs With is an map-centric web application that allows people to find their closest pub
+                                    or bar with particular amenities such as fires, pool tables, live music, food, cocktails
+                                    etc. It has a large database of pubs in Ireland and the UK</p>
+
+                            </section>
+                        </article>
+                    </div>
+
+                    <div class="content__list__item">
+                        <article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+
+
+                            <figure class="content__image ">
+                                <a href="/projects/pubs-with-a-fire/">
+                                    <img class="content__image__img" src="/assets/uploads/pubs-with-a-fire-3.jpg" alt="">
+                                </a>
+
+                            </figure>
+
+
+
+                            <header class="content__header ">
+
+                                <h1 class="content__title" itemprop="name headline">
+                                    <a href="/projects/pubs-with-a-fire/">
+                                        Pubs With A Fire
+                                    </a>
+                                </h1>
+                            </header>
+
+                            <section class="content__section" itemprop="articleBody">
+                                <p>Pubs With A Fire is a web application that helps users find their closest bar or pub with
+                                    a warm fireplace. It has been well received publically and has been featured in national
+                                    news papers, radio and online around Ireland.</p>
+
+                            </section>
+                        </article>
+                    </div>
+
+                    <div class="content__list__item">
+                        <article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+
+                            <header class="content__header ">
+
+                                <h1 class="content__title" itemprop="name headline">
+                                    <a href="/projects/cherrytext/">
+                                        CherryText
+                                    </a>
+                                </h1>
+                            </header>
+
+                            <section class="content__section" itemprop="articleBody">
+                                <p>CherryText was a Django powered Facebook canvas application that allowed Irish mobile network
+                                    users to send free webtexts without having to leave the comfort of Facebook</p>
+
+                            </section>
+                        </article>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="elevator" js-component="elevator" js-args="{ offset: 500 }">
+            <i class="elevator__icon fa fa-angle-up" aria-hidden="true"></i>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="/assets/js/app.js"></script>
+
+
+</html>

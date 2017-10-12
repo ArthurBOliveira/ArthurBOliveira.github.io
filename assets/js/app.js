@@ -1,6 +1,15 @@
 'use strict';
 /*global $:false */
 
+function select_language(language) {
+    $("."+language).each(function () {
+        if ($(this).attr("lang") == language)
+            $(this).show();
+        else
+            $(this).hide();
+    });
+}
+
 var components = {
     utils: {
         getArgs: function ($element) {

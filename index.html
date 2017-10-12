@@ -4,7 +4,15 @@
 <head>
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107318256-1"></script>
-    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments) }; gtag('js', new Date()); gtag('config', 'UA-107318256-1'); </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments)
+        };
+        gtag('js', new Date());
+        gtag('config', 'UA-107318256-1');
+    </script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +29,7 @@
 
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
 
-    <meta property="og:title" content="Arthur B. Oliveira" />   
+    <meta property="og:title" content="Arthur B. Oliveira" />
     <meta property="og:type" content="Portfolio" />
     <meta property="og:url" content="https://arthurboliveira.github.io/" />
     <meta property="og:image" content="https://arthurboliveira.github.io/assets/images/me.jpg" />
@@ -47,8 +55,14 @@
             </ul>
             <ul class="nav__list nav__list--secondary">
                 <li class="nav__list__item" js-menu-item>
+                    <select onchange="select_language(this.options[this.selectedIndex].value)">
+                                <option value="en" selected>English</option>
+                                <option value="pt">Português</option>
+                              </select>
+                </li>
+                <li class="nav__list__item" js-menu-item>
                     <a class="nav__list__link" href="https://github.com/ArthurBOliveira/" rel="noopener" target="_blank">
-              github
+              Github
             </a>
                 </li>
                 <li class="nav__list__item--secondary" js-menu-item>
@@ -73,7 +87,7 @@
                 <section class="home-page__profile-card">
                     <div class="profile-card">
                         <div class="profile-card__portrait" title="I'm a Backend & Game developer, from São Paulo, Brazil.">
-                            <img src="/assets/images/me.jpg" alt=""/>
+                            <img src="/assets/images/me.jpg" alt="" />
                         </div>
                         <div class="profile-card__details">
                             <h1 class="profile-card__title">Arthur B. Oliveira</h1>
@@ -82,16 +96,23 @@
                     </div>
 
                 </section>
-                <section class="home-page__about">
-                    <p>I’m an Backend & Game developer. I develop Api's, Websites and Games 
-                        for 5 years. The tecnologies I'm most proficient are <a target="_blank" rel="noopener" href="https://www.microsoft.com/net/">.net</a> 
-                        and <a target="_blank" rel="noopener" href="https://unity3d.com/">Unity 3d</a>.</p>
+                <section class="home-page__about en">
+                    <p>I’m an Backend & Game developer. I develop Api's, Websites and Games for 5 years. The tecnologies I'm
+                        most proficient are <a target="_blank" rel="noopener" href="https://www.microsoft.com/net/">.net</a>                        and <a target="_blank" rel="noopener" href="https://unity3d.com/">Unity 3d</a>.</p>
 
 
-                    <p>Check out my <a target="_blank" rel="noopener" href="https://github.com/ArthurBOliveira?tab=repositories">Github Repositories</a> to see my Projects 
-                        and my <a target="_blank" rel="noopener" href="https://medium.com/@ArthurBOliveira">Medim</a> where I share some of my experiencies.
-                        Feel free to contact me anytime. See ya!</p>
+                    <p>Check out my <a target="_blank" rel="noopener" href="https://github.com/ArthurBOliveira?tab=repositories">Github Repositories</a>                        to see my Projects and my <a target="_blank" rel="noopener" href="https://medium.com/@ArthurBOliveira">Medim</a>                        where I share some of my experiencies. Feel free to contact me anytime. See ya!</p>
 
+                </section>
+                <section class="home-page__about pt">
+                    <p>Sou desenvolvedor Backend e de Jogos. Desenvolvo sites, Api's e Jogos a 5 anos. Domino as tecnologias
+                        <a target="_blank" rel="noopener" href="https://www.microsoft.com/net/">.net</a> e <a target="_blank"
+                            rel="noopener" href="https://unity3d.com/">Unity 3d</a>.
+                    </p>
+
+                    <p>Dê uma olhada nos meus <a target="_blank" rel="noopener" href="https://github.com/ArthurBOliveira?tab=repositories">Repositórios no Github</a>                        para ver meus projetos e veja também meu <a target="_blank" rel="noopener" href="https://medium.com/@ArthurBOliveira">Medim</a>                        aonde compartilhos minhas experiências. Fique a vontadee para me contactar a qualquer momento!
+
+                    </p>
                 </section>
                 <ul class="icons-list">
                     <li class="icons-list__item">
